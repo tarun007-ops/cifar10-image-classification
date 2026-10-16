@@ -17,7 +17,7 @@ The model classified automobiles and ships relatively well. The confusion matrix
 
 ## Model
 
-The network has three convolution and max-pooling blocks, followed by two fully connected layers. It uses ReLU activations and dropout (`p=0.4`). The input is converted to a tensor with `ToTensor()`. Training uses cross-entropy loss, Adam with a learning rate of `0.001`, and batches of 128 images.
+The network has three convolution and max-pooling blocks, followed by two fully connected layers. It uses ReLU activations and dropout (`p=0.4`). The input is converted to a tensor with `ToTensor()`. Training uses cross-entropy loss, Adam with a learning rate of `0.001`, and batches of 128 images.\n\n![Diagram of the CIFAR-10 CNN architecture](assets/cnn_architecture.svg)
 
 ```text
 3-channel 32×32 image
